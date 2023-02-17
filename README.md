@@ -25,7 +25,7 @@ o programador é responsável por liberar as áreas alocadas dinamicamente -> ge
 <p>
 <strong>malloc:</strong> realiza a alocação de memória.Deve-se informar para a função a quantidade de bytes para alocação.A função irá retornar,se existir memória suficiente,um endereço que deve ser colocado em uma variável do tipo ponteiro.A função retorna um ponteiro do tipo void,então deve-se usar o typecast<br>
 <strong>calloc:</strong> semelhante ao malloc,mas em vez de alocar uma quantidade de bytes,temos que especificar a quantidade de bloco de um determinado tamanho.Funcionalmente a alocação é identica.Contudo, calloc alem de alocar,tambem inicializa o espaço alocado com zeros.<br>
-<strong>realloc:</strong> utilizado para expandir uma área alocada.Deve-se passar o ponteiro retornado pelo malloc e a indicação do novo tamanho
+<strong>realloc:</strong> utilizado para expandir uma área alocada.Deve-se passar o ponteiro retornado pelo malloc e a indicação do novo tamanho<br>
 <strong>free:</strong> libera a área alocada
 
 </p>
