@@ -13,7 +13,10 @@ O espaço de endereços é divido em vários segmentos lógicos,os mais relevant
 
 ## Tipos de alocações
 <p>
-Alocação estática:variáveis globais ou estáticas
+Alocação estática: variáveis globais ou estáticas -> alocadas em DATA<br>
+Alocação automática: variáveis locais e parâmetros de funções -> geralmente alocadas na STACK(pilha)<br>
+Alocação dinâmica: quando o pprocesso requisita explicitamente um bloco de memória para armazenar dados, o controle é manual, ou seja,
+o programador é responsável por liberar as áreas alocadas dinamicamente -> geralmente usa a HEAP
 
 
 </p>
